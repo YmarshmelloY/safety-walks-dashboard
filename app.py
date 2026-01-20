@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import io
 
 st.set_page_config(page_title="BC Safety Walks Dashboard", layout="wide")
-st.title("British Columbia Safety Walks Dashboard (Non-ESS Units)")
+st.title("Safety Walks Dashboard (Non-ESS Units)")
 st.markdown("""
 This dashboard analyzes your exported Excel file for safety walks compliance.  
 - Excludes all **06-ESS Support Services** units  
@@ -120,4 +120,5 @@ st.sidebar.markdown("""
 2. Install: `pip install streamlit pandas matplotlib openpyxl`  
 3. Run locally: `streamlit run app.py`  
 4. Share publicly: Deploy free on [Streamlit Community Cloud](https://streamlit.io/cloud) (connect GitHub repo)  
+
 """)
